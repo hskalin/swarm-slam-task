@@ -6,7 +6,11 @@ function [pntsMap] = world_to_map_coordinates(pntsWorld, gridSize, offset)
 % when converting to map coordinates.
 % pntsMap is a 2xN matrix containing the corresponding points in map coordinates.
 
-% TODO: compute pntsMap
+% hence this is bascially a transform from one coordinate frame to another, as a pseudocode:
+% mapFrame = (worldFrame - offset)/ratio 
 
+% note that pntsMap values should be integers
+
+% TODO: compute pntsMap
 
 end
